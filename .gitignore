@@ -1,0 +1,21 @@
+# Runtime output and caches
+downloads/
+.env
+*.log
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+node_modules/
+frontend/dist/
+
+# Planning docs and agent harness: kept locally, not published
+/docs/
+/openspec/
+/lessons/
+/DECISIONS.md
+/.claude/
+/.agents/
+AGENTS.md
+CLAUDE.md
