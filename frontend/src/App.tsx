@@ -1,3 +1,5 @@
+import YoutubePage from './tools/youtube/YoutubePage'
+
 // New tool = new folder under src/tools/ + one entry here.
 export default function App() {
   return (
@@ -6,6 +8,7 @@ export default function App() {
         <h1>WebTools</h1>
         <p className="muted">Small helpers for web chores.</p>
       </header>
+      <YoutubePage />
     </main>
   )
 }
